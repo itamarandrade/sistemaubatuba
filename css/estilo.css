@@ -1,0 +1,302 @@
+* { border:none; margin:0; padding:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+body { font-family:'Titillium Web',verdana,sans-serif; font-size:14px; color:#636466 }
+
+label { display:inline-block; font-family:'Titillium Web',verdana,sans-serif; font-weight:500; font-size:14px; color:#636466 }
+textarea { overflow:auto }
+fieldset { border:none }
+input,
+textarea,
+select { font-family:'Titillium Web',verdana,sans-serif; font-size:14px; box-sizing:border-box; color:#636466; outline:none }
+textarea { resize:none }
+textarea.erro,
+input.erro,
+select.erro { background:#d00 !important }
+
+.fundo-erro { color:#d00 !important }
+.fundo-sucesso { color:#060 !important }
+
+/* gerais */
+div, section { position:relative }
+a { outline:0 }
+
+#principal { width:100%; height:auto }
+.central { width:96%; height:auto; margin:0 auto }
+.clear { clear:both }
+
+[hidden] { visibility: hidden; }
+
+/* topo */
+header { position:fixed; width:100%; height:auto; padding:10px 0; background:#fff; z-index:999 }
+header { -webkit-box-shadow:0px 3px 5px 0px rgba(0,0,0,0.2); -moz-box-shadow:0px 3px 5px 0px rgba(0,0,0,0.2); box-shadow:0px 3px 5px 0px rgba(0,0,0,0.2) }
+header figure { width:100%; height:auto; text-align:center }
+header figure a { display:inline-block; width:46%; height:auto; margin:0 5px; vertical-align:middle }
+header figure img { max-width:100%; height:auto; vertical-align:middle }
+
+header nav { width:100%; height:auto; margin-top:10px; overflow:hidden }
+header nav .desktop { display:none }
+header nav .mobile { width:auto; height:auto; background:#636466; padding:6px }
+header nav .mobile select { width:100%; padding:3px; text-transform:uppercase }
+
+main { width:100%; height:auto; overflow:hidden }
+
+header .login { position: absolute; width: 64px; padding: 10px 0 10px 0; top: -10px; right: -10px; background-color: #45b553; }
+header .login a { display: block; text-decoration: none; text-align: center; text-transform: uppercase; font-size: 16px; line-height: 11px; color: #ffffff; }
+header .login a:hover { text-decoration: underline; }
+
+/* consulta */
+#consulta { width:100%; height:auto; padding:20px 0 }
+#consulta h1 { font-size:30px; color:#fff; line-height:32px; font-weight:bold; margin-bottom:20px; text-align:center }
+#consulta form { width:100%; height:auto; text-align:center; margin-bottom:20px; overflow:hidden }
+#consulta form label { width:100%; font-size:30px; line-height:30px; color:#fff; margin-bottom:15px }
+#consulta form input[type=text] { width:100%; height:auto; font-size:48px; line-height:48px; font-weight:bold; padding:8px 0; border:#fff 1px solid; background:#fff; border-radius:4px; text-align:center; text-transform:uppercase; margin-bottom:15px }
+#consulta form input[type=text].erro { background:#fff !important; border-bottom:#d00 1px solid !important }
+#consulta form input[type=submit], #consulta form button[type=button], #consulta a.login-portal { width:auto; height:auto; border-bottom:#3b9b47 3px solid; font-size:18px; color:#fff; line-height:18px; font-weight:bold; padding:15px 40px; background:#45b653; text-decoration: none; text-transform:uppercase; border-radius:5px; cursor:pointer }
+#consulta form button[type=button].cancelar { background-color: #b64553; display: block; margin: 30px auto; border-bottom:#9b3b47 3px solid; outline: none !important; }
+#consulta form button[type=button].nacionalidade { display: inline-block; width: 320px; height: 180px; padding: 20px 40px; background:#45b653; outline: none !important; margin: 10px; text-align: center }
+#consulta form button[type=button].nacionalidade img { width: 100px; height: 100px; display: block; margin: 0px auto 20px auto; }
+#consulta form .container { max-height: 250px; }
+#consulta a.login-portal { display: inline-block; margin: 10px; padding: 20px 40px }
+#consulta button[type=button].pagamento { margin: 10px; padding: 20px 40px }
+@media only screen and (max-width: 730px) {
+    #consulta form button[type=button].nacionalidade { height: 100px; text-align: left; font-size: 17px; width: 100%; max-width: 350px; }
+    #consulta form button[type=button].nacionalidade img { display: inline; width: 35px; height: 35px; margin: 0px; margin-right: 8px; }
+    #consulta form button[type=button].nacionalidade span { height: 100%; position: relative; top: -10px; }
+}
+
+/* #consulta form label { width:auto; height:auto; font-size:18px; line-height:110px; font-weight:bold; padding:35px 90px; text-transform:uppercase; border-radius:5px; cursor:pointer } */
+
+#consulta p { font-size:14px; color:#fff; line-height:18px; text-align:center }
+
+/* sobre */
+#sobre { width:100%; height:auto; padding:20px 0 }
+#sobre h1 { font-size:40px; color:#636466; line-height:40px; font-weight:bold; margin-bottom:20px; text-transform:uppercase }
+#sobre h1 span { display:block; width:88px; height:4px; background:#636466; margin-top:20px }
+#sobre p { font-size:18px; color:#636466; line-height:22px; margin-bottom:35px; white-space: pre-line }
+#sobre a { display:inline-block; border-bottom:#3b9b47 3px solid; font-size:18px; color:#fff; line-height:18px; font-weight:bold; padding:20px 40px; background:#45b653; text-transform:uppercase; text-decoration:none; border-radius:5px; cursor:pointer }
+
+/* como funciona */
+#como-funciona { width:100%; height:auto; padding:20px 0; background:url(../img/fundo-como-funciona.jpg) center no-repeat; text-align:center }
+#como-funciona h1 { font-size:40px; color:#fff; line-height:40px; font-weight:bold; margin-bottom:20px; text-transform:uppercase }
+#como-funciona h1 span { display:block; width:88px; height:4px; background:#fff; margin:20px auto 0 auto }
+#como-funciona .lista { width:auto; height:auto; overflow:hidden }
+#como-funciona .lista > div { width:auto; height:auto; margin-bottom:20px }
+#como-funciona .lista > div:last-child { margin-bottom:0 }
+#como-funciona .lista > div h2 { font-size:24px; color:#fff; line-height:24px; text-transform:uppercase; font-weight:bold; margin-bottom:10px }
+#como-funciona .lista > div p { font-size:16px; color:#fff; line-height:18px }
+#como-funciona a { display:inline-block; border-bottom:#006aa5 3px solid; font-size:18px; color:#fff; line-height:20px; font-weight:bold; padding:20px 40px; background:#007cc2; text-transform:uppercase; text-decoration:none; border-radius:5px; margin-top:15px; cursor:pointer }
+#como-funciona p { font-size:18px; color:#fff; line-height:22px; margin-bottom:35px }
+#como-funciona>div>p { margin-bottom: 0 }
+
+/* tarifa */
+#tarifa { width:100%; height:auto; padding:20px 0; background:#e7f9fb; text-align:center }
+#tarifa h1 { font-size:40px; color:#636466; line-height:40px; font-weight:bold; margin-bottom:20px; text-transform:uppercase }
+#tarifa h1 span { display:block; width:88px; height:4px; background:#636466; margin:20px auto 0 auto }
+#tarifa p { font-size:18px; color:#636466; line-height:22px }
+
+#tarifa .valores { width:auto; height:auto; margin-top:20px; overflow:hidden }
+#tarifa .valores .cabecalho { display:none }
+#tarifa .valores .miolo { width:auto; height:auto; overflow:hidden }
+#tarifa .valores .miolo > div { width:auto; height:auto; overflow:hidden; margin-bottom:1px }
+#tarifa .valores .miolo > div:last-child { margin-bottom:0 }
+#tarifa .valores .miolo > div span { display:block; width:auto; height:auto; padding:8px; background:#fff }
+#tarifa .valores .miolo > div span.veiculo { font-size:18px; line-height:20px; font-weight:bold }
+#tarifa .valores .miolo > div span.ufrm { font-size:18px; line-height:20px; padding:0 }
+#tarifa .valores .miolo > div span.valor { font-size:18px; line-height:20px }
+#tarifa .valores .miolo > div span.ufrm:before { content:'UFRM: ' }
+
+/* postos de pagamento */
+#postos-pagamento { width:100%; height:auto; padding:20px 0; background:#007cc2; text-align:center }
+#postos-pagamento { -webkit-box-shadow:inset 0px 0px 100px 10px rgba(0,0,0,0.1); -moz-box-shadow:inset 0px 0px 100px 10px rgba(0,0,0,0.1); box-shadow:inset 0px 0px 100px 10px rgba(0,0,0,0.1) }
+#postos-pagamento h1 { font-size:40px; color:#fff; line-height:40px; font-weight:bold; margin-bottom:20px; text-transform:uppercase }
+#postos-pagamento h1 span { display:block; width:88px; height:4px; background:#fff; margin:20px auto 0 auto }
+#postos-pagamento h2 { font-size:24px; color:#fff; line-height:24px; font-weight:bold; margin-top: 30px; text-transform:uppercase }
+#postos-pagamento h2 span { display:block; width:88px; height:4px; background:#fff; margin:20px auto 0 auto }
+#postos-pagamento nav { width:auto; height:auto; overflow:hidden }
+#postos-pagamento nav a { display:inline-block; font-size:13.5px; color:#fff; line-height:13.5px; padding:8px; background:#007cc2; border:#fff 1px solid; border-radius:5px; text-decoration:none; text-transform:uppercase }
+#postos-pagamento nav a:hover,
+#postos-pagamento nav a.ativo { background:#fff; color:#007cc2; border:#fff 1px solid }
+
+#postos-pagamento .lista { width:auto; height:auto; margin-top:20px; overflow:hidden }
+#postos-pagamento .lista > p { font-size:14px; color:#fff; line-height:16px }
+#postos-pagamento .lista > div { display:inline-block; width:100%; height:auto; margin-bottom:15px }
+#postos-pagamento .lista > div:last-child { margin-bottom:0 }
+#postos-pagamento .lista > div p.titulo { font-size:18px; line-height:18px; color:#fff; font-weight:bold; margin-bottom:2px }
+#postos-pagamento .lista > div p.endereco { font-size:16px; line-height:20px; color:#fff }
+#postos-pagamento .lista > div .pagamento { width:auto; height:auto; margin-top:5px; text-align:center }
+#postos-pagamento .lista > div .pagamento img { margin:0 2px; vertical-align:middle }
+#postos-pagamento .aplicativos { display: flex; justify-content: center; align-items: center; flex-direction: column }
+#postos-pagamento .pagamentos-automatico { display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 15px }
+#postos-pagamento .pagamentos-automatico img { margin-left: 10px; margin-right: 10px }
+#postos-pagamento .pagamentos-automatico .conect-car { margin-bottom: 20px; height: 38px }
+#postos-pagamento .pagamentos-automatico .sem-parar { margin-bottom: 20px; height: 38px }
+#postos-pagamento .pagamentos-automatico .veloe { margin-bottom: 20px; height: 50px }
+
+/* contato */
+#contato { width:100%; height:auto; padding:20px 0; background:#e8f5e9; text-align:center }
+#contato h1 { font-size:40px; color:#636466; line-height:40px; font-weight:bold; margin-bottom:20px; text-transform:uppercase }
+#contato h1 span { display:block; width:88px; height:4px; background:#636466; margin:20px auto 0 auto }
+#contato address { width:100%; height:auto; font-size:18px; /*color:#636466;*/ line-height:20px; font-style:normal }
+#contato .telefone { width:100%; height:auto; font-size:24px; /*color:#636466;*/ font-weight:600; margin:10px 0 }
+#contato p { font-size:16px; line-height:18px }
+#contato img#contato-whats { width: 18px; height: auto; margin-left: 10px }
+
+#form-contato { width:auto; height:auto; margin-top:30px; overflow:hidden }
+#form-contato input[type=text] { width:100%; height:auto; font-size:16px; color:#fff; padding:10px 15px; background:#007cc2; border-radius:4px; margin-bottom:10px }
+#form-contato textarea { width:100%; height:150px; font-size:16px; color:#fff; padding:10px 15px; background:#007cc2; border-radius:4px }
+#form-contato .retorno { width:100%; height:auto; font-size:16px; color:#636466; line-height:20px; margin:15px 0 }
+#form-contato input[type=submit] { display:inline-block; border-bottom:#3b9b47 3px solid; font-size:18px; color:#fff; line-height:18px; font-weight:bold; padding:15px 40px; background:#45b653; text-transform:uppercase; text-decoration:none; border-radius:5px; cursor:pointer }
+
+#form-contato ::-webkit-input-placeholder { color:#fff; opacity:1 }
+#form-contato :-moz-placeholder { color:#fff; opacity:1 }
+#form-contato ::-moz-placeholder { color:#fff; opacity:1 }
+#form-contato :-ms-input-placeholder { color:#fff; opacity:1 }
+
+/* rodape */
+footer { width:100%; height:auto; padding:20px 0; text-align:center; overflow:hidden }
+footer p { font-size:14px; color:#636466; line-height:16px }
+footer .telmesh { width:100%; height:auto; margin-top:10px; overflow:hidden }
+footer .telmesh img { vertical-align:middle }
+
+/* --- resultado */
+#resultado { width:100%; height:auto; overflow:hidden }
+
+#resultado .topo { width:auto; height:auto; padding:20px 0; background:#fff; overflow:hidden }
+#resultado .topo h1 { font-size:39px; color:#636466; line-height:39px; font-weight:bold; margin-bottom:20px; text-transform:uppercase }
+#resultado .topo h1 span { display:block; width:88px; height:4px; background:#636466; margin:20px 0 0 0 }
+
+#resultado .topo .info-quitacao { width:auto; height:auto; margin-bottom:15px; overflow:hidden }
+#resultado .topo .info-quitacao p { font-size:18px; color:#636466; line-height:22px; text-align:justify }
+
+#resultado .topo .taxas { background:#f00; padding:8px; border-radius:5px; margin-bottom:15px }
+#resultado .topo .taxas p { font-size:15px; color:#fff; line-height:18px; font-weight:bold; text-align:center; text-transform:uppercase }
+#resultado .topo .taxas p a { color:#fff }
+
+#resultado .topo .veiculos-brasileiros { width:auto; height:auto; padding:8px; border:#dcdcdc 1px solid; border-radius:5px; text-align:center }
+#resultado .topo .veiculos-brasileiros p:first-child { font-size:17px; line-height:20px; margin-bottom:5px }
+#resultado .topo .veiculos-brasileiros p:last-child { font-size:16px; line-height:17px; font-weight:bold }
+
+/*#resultado .boleto-valor-minimo { width:auto; height:auto; padding:8px; border:#dcdcdc 1px solid; border-radius:5px; text-align:center }*/
+#resultado .boleto-valor-minimo { background:#f00; padding:8px; border-radius:5px; margin-bottom:25px }
+#resultado .boleto-valor-minimo p { font-size:15px; color:#fff; line-height:18px; font-weight:bold; text-align:center; text-transform:uppercase }
+
+#resultado form { width:100%; height:auto; padding:20px 0; text-align:center }
+#resultado .consulta { width:auto; height:auto; margin-bottom:20px; overflow:hidden }
+#resultado .consulta label { display:block; font-size:25px; color:#636466; line-height:28px; font-weight:bold; margin-bottom:10px; text-transform:uppercase }
+#resultado .consulta label span { display:block; height:2px; background:#636466; margin-top:10px } 
+#resultado .consulta input[type=text] { display:inline-block; width:200px; height:auto; font-size:37px; line-height:37px; padding:9px 0; margin-right:5px; background:#fff; border:#d9d9d9 1px solid; border-radius:5px; text-align:center; text-transform:uppercase; vertical-align:middle }
+#resultado .consulta input[type=submit] { display:inline-block; width:auto; height:auto; font-size:20px; color:#fff; line-height:22px; font-weight:bold; text-transform:uppercase; padding:15px 26px; background:#45b653; border-bottom:3px solid #3b9b47; border-radius:5px; vertical-align:middle; cursor:pointer }
+
+#resultado .divida-ativa p { font-size: 28px; line-height: 26px; }
+
+#resultado .carregando p { font-size: 21px; }
+
+#resultado .isento { width:auto; height:auto; margin-bottom:20px; overflow:hidden }
+#resultado .isento h2 { display:block; font-size:25px; color:#636466; line-height:28px; font-weight:bold; margin-bottom:10px; text-transform:uppercase }
+#resultado .isento h2 span { display:block; height:2px; background:#636466; margin-top:10px } 
+#resultado .isento p { font-size:18px; color:#636466; line-height:20px }
+#resultado .isento div { width:auto; height:auto; overflow:hidden }
+#resultado .isento div a { display:inline-block; font-size:18px; color:#636466; line-height:18px; font-weight:bold; margin-top:10px }
+
+#resultado .classificacao { width:auto; height:auto; margin-bottom:20px; overflow:hidden }
+#resultado .classificacao h2 { display:block; font-size:25px; color:#636466; line-height:28px; font-weight:bold; margin-bottom:10px; text-transform:uppercase }
+#resultado .classificacao h2 span { display:block; height:2px; background:#636466; margin-top:10px } 
+#resultado .classificacao > span { display:block; width:auto; height:auto; font-size:18px; color:#636466; line-height:20px }
+#resultado .classificacao select { max-width:100%; min-width:100%; font-size:16px; color:#636466; text-transform:uppercase; padding:8px; background:#fff; border:1px solid #ccc }
+
+#resultado .qtd-passagens { width:auto; height:auto; margin-bottom:20px; overflow:hidden }
+#resultado .qtd-passagens strong { display:block; font-size:18px; line-height:24px; margin-bottom:5px }
+#resultado .qtd-passagens p { font-size:18px; color:#636466; line-height:20px }
+
+#resultado .tipo-selecao-taxas { width: 280px; display: inline-table }
+#resultado .tipo-selecao-taxas strong { display:block; font-size:18px; line-height:24px; margin-bottom:5px }
+#resultado .tipo-selecao-taxas md-radio-group { display: inline-flex }
+#resultado .tipo-selecao-taxas md-radio-group md-radio-button { margin-bottom: 0 }
+#resultado .tipo-selecao-taxas md-radio-group md-radio-button:first-child { margin-right: 10px }
+
+#resultado .qtd-valor { width:auto; height:auto; overflow:hidden; margin-top: 20px }
+#resultado .qtd-valor strong { display:block; font-size:18px; line-height:24px; margin-bottom:5px }
+#resultado .qtd-valor input { max-width:150px; min-width:150px; font-size:16px; color:#636466; text-transform:uppercase; padding:8px; background:#fff; border:1px solid #ccc; text-align: center }
+#resultado .qtd-valor input[readonly="readonly"] { background-color: #e2e2e2 }
+
+#resultado .tabela-taxas { margin-top: 10px; max-width: 360px; display: flex; flex-direction: column; margin-left: auto; margin-right: auto }
+#resultado .tabela-taxas strong { display:block; font-size:18px; line-height:24px; margin-bottom:5px }
+#resultado .tabela-taxas p { font-size:18px; color:#636466; line-height:20px }
+#resultado .tabela-taxas .veiculo-nao-encontrado { margin-top: 5px; color: #d04c4e }
+#resultado .tabela-taxas .renavam-title { text-align: left; padding-left: 25px }
+#resultado .tabela-taxas .renavam-container { text-align: left; padding-left: 25px }
+#resultado .tabela-taxas .renavam-container input { font-size: 16px; color: #636466; text-transform: uppercase; padding: 8px; background: #fff; border: 1px solid #ccc; }
+#resultado .tabela-taxas .renavam-container button { display:inline-block; width:auto; height:auto; padding:8px 16px; background:#45b653; border-bottom:#3b9b47 3px solid; border-radius:5px; font-size:14px; color:#fff; line-height:22px; font-weight:bold; text-transform:uppercase; text-decoration:none; vertical-align:middle; cursor:pointer; margin-top: -4px }
+#resultado .tabela-taxas .content { max-height: 360px; overflow: auto; background-color: #cccccc40; border: 1px solid #ccc }
+#resultado .tabela-taxas .content md-list-item:nth-child(even) { background-color: #cccccc40 }
+#resultado .tabela-taxas input[readonly="readonly"] { background: #e2e2e2; }
+#resultado .tabela-taxas button[disabled="disabled"] { background: #d0d0d0; border-bottom: #bfbfbf 3px solid; }
+
+#resultado .valor-total p { font-size:18px; color:#636466; line-height:20px }
+#resultado .valor-total strong { display:block; font-size:18px; line-height:24px; margin: 0 }
+#resultado .valores-table { width:auto; height:auto; margin: 20px auto; overflow:hidden; display: grid; grid-template-columns: 61% 39%; padding: 0 50px; text-align: left; }
+#resultado .valores-table .total { margin-top: 10px; font-size: 22px }
+
+#resultado .pagamento { width:auto; height:auto; margin-bottom:10px; margin-top:40px; overflow:hidden }
+#resultado .pagamento h2 { display:block; font-size:25px; color:#636466; line-height:28px; font-weight:bold; margin-bottom:10px; text-transform:uppercase }
+#resultado .pagamento h2 span { display:block; height:2px; background:#636466; margin-top:10px } 
+#resultado .pagamento select { max-width:100%; min-width:100%; font-size:16px; color:#636466; text-transform:uppercase; padding:8px; background:#fff; border:1px solid #ccc }
+
+#resultado .formas-pagamento { width:auto; height:auto; margin-bottom:20px; overflow:hidden; padding-top: 10px }
+#resultado .formas-pagamento > div { width:auto; height:auto; overflow:hidden }
+#resultado .formas-pagamento > div > div { width:auto; height:auto; margin-bottom:10px; overflow:hidden }
+#resultado .formas-pagamento > div > div:last-child { margin-bottom:0 }
+#resultado .formas-pagamento > div > div label { display:block; font-size:16px; color:#636466; line-height:16px; margin-bottom:4px; font-weight:bold; text-align:left }
+#resultado .formas-pagamento > div > div input { max-width:100%; min-width:100%; font-size:14px; color:#636466; padding:8px; background:#fff; border:1px solid #ccc }
+#resultado .formas-pagamento > div > div select { max-width:100%; min-width:100%; font-size:14px; color:#636466; padding:8px; background:#fff; border:1px solid #ccc }
+#resultado .formas-pagamento > div > div input[disabled] { background: #ececec; }
+
+#resultado .botao-pagamento { width:auto; height:auto; margin:20px 0; overflow:hidden }
+#resultado .botao-pagamento > button { display:inline-block; width:auto; height:auto; padding:20px 40px; background:#45b653; border-bottom:#3b9b47 3px solid; border-radius:5px; font-size:22px; color:#fff; line-height:22px; font-weight:bold; text-transform:uppercase; text-decoration:none; vertical-align:middle; cursor:pointer }
+#resultado .botao-pagamento figure { width:auto; height:auto; text-align:center; margin-top:15px; overflow:hidden }
+#resultado .botao-pagamento figure img { max-width:100%; height:auto; vertical-align:middle }
+#resultado .botao-pagamento figure figcaption { font-size:16px; color:#636466; line-height:16px; font-weight:bold; margin-top:5px }
+
+#resultado .valores { margin-top: 40px }
+#resultado .valores h2 { display:block; font-size:25px; color:#636466; line-height:28px; font-weight:bold; margin-bottom:10px; text-transform:uppercase }
+#resultado .valores h2 span { display:block; height:2px; background:#636466; margin-top:10px }
+
+#resultado .link-tpa { width:auto; height:auto; padding-top:20px; margin-top:20px; border-top:#c7d1c9 2px solid; text-align:center; overflow:hidden }
+#resultado .link-tpa a { display:block; font-size:16px; color:#636466; line-height:18px; margin:0 0 10px 0; text-decoration:none; overflow:hidden }
+#resultado .link-tpa a img { display:block; float:left }
+
+#resultado .mensagem-obrigatorio { width:auto; height:auto; margin-bottom:20px; overflow:hidden }
+#resultado .mensagem-obrigatorio > span { display:block; font-size:16px; color:#636466; line-height:16px; margin-bottom:4px; font-weight:bold; text-align:center }
+
+#resultado .recaptcha { width:auto; height:auto; margin-bottom:20px; overflow:hidden; text-align:center; display:block;  }
+#resultado .recaptcha > div { width:auto !important; height:auto !important; }
+
+/* retorno - sucesso x erro */
+#retorno { width:100%; height:auto; padding:50px 0; text-align:center; overflow:hidden }
+#retorno h1 { font-size:36px; color:#636466; line-height:50px }
+#retorno h2 { font-size:24px; color:#636466; line-height:36px }
+#retorno div { width:auto; height:auto; margin-top:25px; overflow:hidden }
+#retorno div button { display:inline-block; width:auto; height:auto; padding:20px 40px; background:#45b653; border-bottom:#3b9b47 3px solid; border-radius:5px; font-size:22px; color:#fff; line-height:22px; font-weight:bold; text-transform:uppercase; text-decoration:none; vertical-align:middle; cursor:pointer }
+
+
+#principal .linha-digitavel, #principal .bloqueio-arquivo { margin-bottom: 20px; }
+#principal h2.enviar-email { margin-top: 40px }
+#principal div.enviar-email { margin-top: 0 }
+#principal div.enviar-email { display: flex; flex-direction: column; align-items: center }
+#principal div.enviar-email>div { width: 98%; height:auto; margin-bottom:10px; margin-top: 5px; overflow:hidden }
+#principal div.enviar-email>div:last-child { margin-bottom:0 }
+#principal div.enviar-email>div label { display:block; font-size:16px; color:#636466; line-height:16px; margin-bottom:4px; font-weight:bold; text-align:left }
+#principal div.enviar-email>div input { max-width:100%; min-width:100%; font-size:14px; color:#636466; padding:8px; background:#fff; border:1px solid #ccc }
+#principal div.enviar-email>button { padding: 0 40px; height: 60px }
+#principal div.botoes { margin-top: 40px }
+#principal div.botoes>button { margin-bottom: 10px }
+
+md-radio-group.md-default-theme.md-focused:not(:empty) .md-checked .md-container:before, md-radio-group.md-focused:not(:empty) .md-checked .md-container:before { background-color: #45b65342 }
+md-radio-group.md-default-theme .md-checked .md-ink-ripple, md-radio-group .md-checked .md-ink-ripple { color: #45b65342 }
+md-radio-button.md-default-theme.md-checked .md-off, md-radio-button.md-checked .md-off { border-color: #45b653 }
+md-radio-button.md-default-theme .md-on, md-radio-button .md-on { background-color: #45b653 }
+md-radio-button .md-label span { font-size: 18px }
+
+md-checkbox.md-default-theme.md-checked .md-ink-ripple, md-checkbox.md-checked .md-ink-ripple { color: #45b653 }
+md-checkbox.md-default-theme.md-checked .md-icon, md-checkbox.md-checked .md-icon { background-color: #45b653 }
+
+md-radio-button.md-default-theme[disabled] .md-container .md-on, md-radio-button[disabled] .md-container .md-on, md-radio-group.md-default-theme[disabled] .md-container .md-on, md-radio-group[disabled] .md-container .md-on { background-color: #868686 }
