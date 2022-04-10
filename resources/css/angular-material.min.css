@@ -3,7 +3,8 @@
  * https://github.com/angular/material
  * @license MIT
  * v1.2.1
- */body,html{height:100%;position:relative}
+ */
+ body,html{height:100%;position:relative}
 body{margin:0;padding:0}
 [tabindex="-1"]:focus{outline:none}
 .inset{padding:10px}
