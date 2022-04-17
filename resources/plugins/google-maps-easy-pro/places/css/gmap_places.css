@@ -1,0 +1,227 @@
+.gmpPlacesToolbar input, .gmpPlacesToolbar select, .gmpPlacesToolbar button {
+	width: 100%;
+}
+.gmpPlacesToolbar input, .gmpPlacesToolbar select:not([multiple="multiple"]), .gmpPlacesToolbar select[multiple="multiple"] option, .gmpPlacesToolbar button {
+	padding: 10px 5px !important;
+	margin: 0 0 5px 0;
+}
+.gmpPlacesToolbar input, .gmpPlacesToolbar select option, .gmpPlacesToolbar button {
+	font-size: 16px;
+	line-height: 20px !important;
+}
+.gmpPlacesToolbar button {
+	background-color: #1a1a1a;
+	border: 2px solid #1a1a1a !important;
+	color: #ffffff;
+}
+.gmpPlacesToolbar .gmpPlacesRadiusMin {
+	float: left;
+}
+.gmpPlacesToolbar .gmpPlacesRadiusMax {
+	float: right;
+}
+.gmpPlacesToolbar .toeSliderDisplay {
+	text-align: center;
+}
+.gmpPlacesToolbar .ui-slider-horizontal {
+	margin: 5px !important;
+	border: 1px solid #1a1a1a !important;
+	background-color: #FFFFFF !important;
+	clear: both;
+}
+.gmpPlacesToolbar .ui-slider.ui-widget-content .ui-slider-handle {
+	border: 1px solid #1a1a1a !important;
+	background-color: #FFFFFF !important;
+}
+
+/* Custom Bootstrap */
+.gmpRow {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.gmpRow:after, .gmpRow:before {
+	content: " ";
+	display: table
+}
+.gmpRow:after {
+	clear: both
+}
+.gmpsupXs1, .gmpsupSm1, .gmpsupMd1, .gmpsupLg1,
+.gmpsupXs2, .gmpsupSm2, .gmpsupMd2, .gmpsupLg2,
+.gmpsupXs3, .gmpsupSm3, .gmpsupMd3, .gmpsupLg3,
+.gmpsupXs4, .gmpsupSm4, .gmpsupMd4, .gmpsupLg4,
+.gmpsupXs5, .gmpsupSm5, .gmpsupMd5, .gmpsupLg5,
+.gmpsupXs6, .gmpsupSm6, .gmpsupMd6, .gmpsupLg6,
+.gmpsupXs7, .gmpsupSm7, .gmpsupMd7, .gmpsupLg7,
+.gmpsupXs8, .gmpsupSm8, .gmpsupMd8, .gmpsupLg8,
+.gmpsupXs9, .gmpsupSm9, .gmpsupMd9, .gmpsupLg9,
+.gmpsupXs10, .gmpsupSm10, .gmpsupMd10, .gmpsupLg10,
+.gmpsupXs11, .gmpsupSm11, .gmpsupMd11, .gmpsupLg11,
+.gmpsupXs12, .gmpsupSm12, .gmpsupMd12, .gmpsupLg12 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.gmpsupXs1, .gmpsupXs2, .gmpsupXs3, .gmpsupXs4, .gmpsupXs5, .gmpsupXs6, .gmpsupXs7, .gmpsupXs8, .gmpsupXs9, .gmpsupXs10, .gmpsupXs11, .gmpsupXs12 {
+	float: left;
+}
+.gmpsupXs1 {
+	width: 8.33333%;
+}
+.gmpsupXs2 {
+	width: 16.66667%;
+}
+.gmpsupXs3 {
+	width: 25%;
+}
+.gmpsupXs4 {
+	width: 33.33333%;
+}
+.gmpsupXs5 {
+	width: 41.66667%;
+}
+.gmpsupXs6 {
+	width: 50%;
+}
+.gmpsupXs7 {
+	width: 58.33333%;
+}
+.gmpsupXs8 {
+	width: 66.66667%;
+}
+.gmpsupXs9 {
+	width: 75%;
+}
+.gmpsupXs10 {
+	width: 83.33333%;
+}
+.gmpsupXs11 {
+	width: 91.66667%;
+}
+.gmpsupXs12 {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.gmpsupSm1, .gmpsupSm2, .gmpsupSm3, .gmpsupSm4, .gmpsupSm5, .gmpsupSm6, .gmpsupSm7, .gmpsupSm8, .gmpsupSm9, .gmpsupSm10, .gmpsupSm11, .gmpsupSm12 {
+		float: left;
+	}
+	.gmpsupSm1 {
+		width: 8.33333%;
+	}
+	.gmpsupSm2 {
+		width: 16.66667%;
+	}
+	.gmpsupSm3 {
+		width: 25%;
+	}
+	.gmpsupSm4 {
+		width: 33.33333%;
+	}
+	.gmpsupSm5 {
+		width: 41.66667%;
+	}
+	.gmpsupSm6 {
+		width: 50%;
+	}
+	.gmpsupSm7 {
+		width: 58.33333%;
+	}
+	.gmpsupSm8 {
+		width: 66.66667%;
+	}
+	.gmpsupSm9 {
+		width: 75%;
+	}
+	.gmpsupSm10 {
+		width: 83.33333%;
+	}
+	.gmpsupSm11 {
+		width: 91.66667%;
+	}
+	.gmpsupSm12 {
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.gmpsupMd1, .gmpsupMd2, .gmpsupMd3, .gmpsupMd4, .gmpsupMd5, .gmpsupMd6, .gmpsupMd7, .gmpsupMd8, .gmpsupMd9, .gmpsupMd10, .gmpsupMd11, .gmpsupMd12 {
+		float: left;
+	}
+	.gmpsupMd1 {
+		width: 8.33333%;
+	}
+	.gmpsupMd2 {
+		width: 16.66667%;
+	}
+	.gmpsupMd3 {
+		width: 25%;
+	}
+	.gmpsupMd4 {
+		width: 33.33333%;
+	}
+	.gmpsupMd5 {
+		width: 41.66667%;
+	}
+	.gmpsupMd6 {
+		width: 50%;
+	}
+	.gmpsupMd7 {
+		width: 58.33333%;
+	}
+	.gmpsupMd8 {
+		width: 66.66667%;
+	}
+	.gmpsupMd9 {
+		width: 75%;
+	}
+	.gmpsupMd10 {
+		width: 83.33333%;
+	}
+	.gmpsupMd11 {
+		width: 91.66667%;
+	}
+	.gmpsupMd12 {
+		width: 100%;
+	}
+}
+@media (min-width: 1200px) {
+	.gmpsupLg1, .gmpsupLg2, .gmpsupLg3, .gmpsupLg4, .gmpsupLg5, .gmpsupLg6, .gmpsupLg7, .gmpsupLg8, .gmpsupLg9, .gmpsupLg10, .gmpsupLg11, .gmpsupLg12 {
+		float: left;
+	}
+	.gmpsupLg1 {
+		width: 8.33333%;
+	}
+	.gmpsupLg2 {
+		width: 16.66667%;
+	}
+	.gmpsupLg3 {
+		width: 25%;
+	}
+	.gmpsupLg4 {
+		width: 33.33333%;
+	}
+	.gmpsupLg5 {
+		width: 41.66667%;
+	}
+	.gmpsupLg6 {
+		width: 50%;
+	}
+	.gmpsupLg7 {
+		width: 58.33333%;
+	}
+	.gmpsupLg8 {
+		width: 66.66667%;
+	}
+	.gmpsupLg9 {
+		width: 75%;
+	}
+	.gmpsupLg10 {
+		width: 83.33333%;
+	}
+	.gmpsupLg11 {
+		width: 91.66667%;
+	}
+	.gmpsupLg12 {
+		width: 100%;
+	}
+}

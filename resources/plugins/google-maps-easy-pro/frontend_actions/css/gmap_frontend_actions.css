@@ -1,0 +1,100 @@
+.gmpFrontendMarkerForm {
+	padding: 20px 0;
+}
+.gmpFrontendMarkerForm .gmpInputError {
+	border-color: #FF0000;
+}
+.gmpFrontendMarkerForm input[type="text"], .gmpFrontendMarkerForm textarea, .gmpFrontendMarkerForm select {
+	width: 100%;
+}
+.gmpFrontendMarkerForm textarea {
+	min-height: 150px;
+	background-color: #f6f7f7;
+	color: #252728;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top: 1px solid #dfe4e4;
+	padding: 7px 5px;
+}
+.gmpFrontendMarkerForm .gmpFrontendMarkerFormRow {
+	margin-bottom: 15px;
+}
+.gmpFrontendMarkerForm .gmpFrontendMarkerFormRow.gmpFrontendMarkerFormTitle {
+	margin-bottom: 0;
+}
+.gmpFrontendMarkerForm button[type="submit"] {
+	float: right;
+	min-width: 160px;
+}
+.gmpFrontendMarkerForm .gmpFrontendMarkerIconImg {
+	max-width: 100px;
+	height: auto;
+	padding: 0 20px;
+}
+#gmpFrontendMarkerIconsWnd {
+	background: #ffffff !important;
+}
+#gmpFrontendMarkerIconsWnd .gmpFrontendMarkerIconsList {
+	list-style: none;
+	padding: 0;
+}
+#gmpFrontendMarkerIconsWnd .gmpFrontendMarkerPreviewIcon {
+	float: left;
+	cursor: pointer;
+	min-height: 65px;
+	padding: 0 8px;
+}
+.gmpFrontendMarkerFormMsg {
+	float: left;
+	padding-top: 10px;
+}
+.gmpFrontendMarkerForm #gmpAddNewMarkerBtn.gmpActive {
+	box-shadow: 0px 0px 4px 2px #808080;
+	-moz-box-shadow: 0px 0px 4px 2px #808080;
+	-webkit-box-shadow: 0px 0px 4px 2px #808080;
+}
+
+/* WP Editor styles */
+/*.mce-widget button:hover, .mce-widget button:active, .mce-widget button:focus {
+	background: transparent !important;
+	border-color: transparent !important;
+}
+.gmpFrontendMarkerForm .wp-editor-tabs,
+.gmpFrontendMarkerForm .wp-editor-tabs button {
+	box-sizing: content-box;
+}
+.gmpFrontendMarkerForm .wp-editor-tabs button:hover,
+.gmpFrontendMarkerForm .wp-core-ui .button:focus,
+.gmpFrontendMarkerForm .wp-core-ui .button:active,
+.gmpFrontendMarkerForm .mce-toolbar .mce-btn-group .mce-btn:hover,
+.gmpFrontendMarkerForm .mce-toolbar .mce-btn-group .mce-btn button:hover {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	transform: none;
+	-webkit-transform: none;
+	-ms-transform: none;
+}
+.gmpFrontendMarkerForm .wp-editor-tabs button:hover {
+	background: #f5f5f5;
+	border-top: 1px solid #ebebeb;
+}
+.gmpFrontendMarkerForm .wp-editor-tabs button:active {
+	padding: 4px 9px 5px;
+	border-top-width: 0;
+}
+.gmpFrontendMarkerForm .mce-toolbar .mce-btn-group .mce-btn:hover {
+	border-color: #4ae8ea !important;
+}
+.gmpFrontendMarkerForm .mce-toolbar .mce-btn-group .mce-btn button:hover,
+.gmpFrontendMarkerForm .mce-toolbar .mce-btn-group .mce-btn button:active,
+.gmpFrontendMarkerForm .mce-toolbar .mce-btn-group .mce-btn button:focus {
+	background: #4ae8ea !important;
+	border-color: #4ae8ea !important;
+}
+.gmpFrontendMarkerForm .mce-toolbar .mce-btn-group .mce-btn button:active {
+	border-top-width: 0;
+}
+.gmpFrontendMarkerForm .mce-toolbar .mce-btn-group .mce-btn .mce-ico {
+	color: #555555;
+}*/

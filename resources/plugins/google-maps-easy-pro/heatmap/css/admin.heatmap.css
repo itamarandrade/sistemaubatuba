@@ -1,0 +1,26 @@
+#gmpHeatmapForm #gmpHeatmapAddPointBtn.gmpAddActivated,
+#gmpHeatmapForm #gmpHeatmapRemovePointBtn.gmpRemoveActivated {
+	 background: #4ae8ea !important;
+}
+#gmpHeatmapForm #gmpHeatmapAddPointBtn {
+	float: left;
+}
+#gmpHeatmapForm #gmpHeatmapRemovePointBtn {
+	float: right;
+}
+#gmpHeatmapForm .gmpHeatmapPointsCount {
+	padding-top: 30px;
+	clear: both;
+}
+#gmpHeatmapForm .gmpHeatmapPointsCount #gmpHeatmapPointsNumber {
+	display: inline-block;
+	vertical-align: middle;
+}
+#gmpHeatmapForm .gmpHeatmapGradient .wp-picker-container {
+	display: inline-block;
+}
+#gmpHeatmapForm .gmpHeatmapGradient .gmpHeatmapRemoveColorBtn {
+	height: auto;
+	padding: 4px;
+	line-height: 15px;
+}

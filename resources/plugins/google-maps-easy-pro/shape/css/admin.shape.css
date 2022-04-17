@@ -1,0 +1,28 @@
+#gmpShapeForm .gmpCommonShapeParam, #gmpShapeForm .gmpPolygonShapeParam {
+	display: inline-block;
+	width: 23%;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+#gmpShapeForm .gmpPolygonShapeParam.gmpPolygonShapeDesc {
+	display: block;
+	width: 100%;
+}
+#gmpShapeForm .gmpParamLeft {
+	float: left;
+	width: 57%;
+}
+#gmpShapeForm .gmpParamRight {
+	float: right;
+	width: 20%;
+}
+#gmpShapeForm #gmpShapeAddPointByClickBtn.gmpAddByClickActivated {
+	background: #4ae8ea !important;
+}
+#gmpShapeForm .gmpShapePointRow {
+	margin-bottom: 15px;
+}
+#gmpShapeForm #gmpShapeRemovePointRowBtn {
+	margin-left: 2px;
+	vertical-align: bottom;
+}

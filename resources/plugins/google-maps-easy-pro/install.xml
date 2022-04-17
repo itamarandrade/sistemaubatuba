@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+	<modules>
+		<mod code = "license" active = "1" type_id = "6"  label = "license" />
+		<mod code = "add_map_options" active = "1" type_id = "6"  label = "add_map_options" />
+		<mod code = "markers_list" active = "1" type_id = "6"  label = "markers_list" />
+		<mod code = "custom_controls" active = "1" type_id = "6"  label = "custom_controls" />
+		<mod code = "directions" active = "1" type_id = "6"  label = "directions" />
+		<mod code = "kml" active = "1" type_id = "6"  label = "kml" />
+		<mod code = "shape" active = "1" type_id = "6"  label = "shape" />
+		<mod code = "access" active = "1" type_id = "6"  label = "access" />
+		<mod code = "heatmap" active = "1" type_id = "6"  label = "heatmap" />
+		<mod code = "frontend_actions" active = "1" type_id = "6"  label = "frontend_actions" />
+		<mod code = "places" active = "1" type_id = "6"  label = "places" />
+	</modules>
+</install>

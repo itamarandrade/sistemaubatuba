@@ -1,0 +1,140 @@
+.gmpDirectionsBtn {
+	width: auto;
+	padding-right: 5px;
+	max-height: 25px;
+	margin: 0 6px 6px 0;
+	border: 1px solid black;
+	border-radius: 2px;
+	font-family: Roboto,Arial,sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #545454;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.gmpDirectionsBtn:hover {
+	background-color: #ebebeb;
+	color: #000000;
+}
+.gmpDirectionsBtn i.fa {
+	font-size: 16px;
+	vertical-align: middle;
+	margin: 3px;
+}
+/*.gmpDirectionsBtn img {
+	width: 20px;
+	margin: 2px;
+	vertical-align: middle;
+	display: inline;
+}*/
+.gmpDirectionsForm {
+	max-height: 100px;
+	padding: 5px 20px 5px 5px;
+	border: 1px solid #000000;
+	border-radius: 2px;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 14px;
+	font-family: Roboto,Arial,sans-serif;
+	margin: 5px 5px 5px -1px;
+	z-index: 99999999999!important;
+}
+.gmpDirectionsForm input {
+	width: 200px;
+	max-height: 30px;
+	padding: 5px;
+	border: 1px solid #000000;
+	border-radius: 2px;
+	text-align: left;
+	font-size: 14px;
+	font-family: Roboto,Arial,sans-serif;
+	line-height: 16px;
+	margin: 0 auto;
+}
+.gmpDirectionsForm button {
+	display: inline;
+	padding: 5px;
+	border: 0;
+	border-radius: 2px;
+	background: #000000;
+	color: #ffffff;
+	font-size: 11px;
+	line-height: 16px;
+}
+.gmpDirectionsForm button:active {
+	padding: 5px;
+	border-top: 0;
+}
+.gmpDirectionsForm .gmpExitBtn {
+	width: 15px;
+	height: 15px;
+	overflow: hidden;
+	position: absolute;
+	right: -1px;
+	top: 2px;
+	cursor: pointer;
+}
+.gmpDirectionsForm .gmpExitBtn i.fa {
+	display: block;
+}
+.gmpDirectionsForm .gmpDirectionsErrors {
+	display: none;
+}
+.gmpDirectionsMode, .gmpDirectionsData {
+	display: inline-block;
+	vertical-align: middle;
+}
+.gmpDirectionsMode {
+	background-image: url(//maps.gstatic.com/tactile/directions/omnibox/directions-1x-20150929.png);
+	background-size: 96px 216px;
+	background-position: 0 120px;
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+.gmpDirectionsData {
+	text-align: center;
+}
+/* Directions Panel Styles */
+.gmpMapProDirectionsCon {
+	width: 100%;
+}
+.gmpDirectionsPanelShell {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	max-height: 400px;
+	border: 1px solid #9b9b9b;
+}
+.directionsPanelHeader {
+	margin: 10px;
+}
+.gmpDirectionsPanel table {
+	margin: 0;
+}
+.gmpDirectionsPanel .adp-list, .gmpDirectionsPanel .adp-placemark, .gmpDirectionsPanel .adp-fullwidth, .gmpDirectionsPanel table.adp-fullwidth td {
+	border: none;
+}
+.gmpDirectionsPanel .adp-listheader {
+	background: #cdcdcd;
+	text-transform: uppercase;
+}
+.gmpDirectionsPanel .adp-list {
+	padding: 0;
+}
+.gmpDirectionsPanel .adp-list td {
+	padding: 10px 6px;
+}
+.gmpDirectionsPanel .adp-listsel {
+	background: #fafafa;
+}
+.gmpDirectionsPanel .adp-summary {
+	background: #d7d7d7;
+	padding: 3px;
+}
+.gmpDirectionsPanel .adp-summary>span {
+	vertical-align: middle;
+}
+.gmpDirectionsPanel .adp-legal {
+	font-size: 11px;
+}

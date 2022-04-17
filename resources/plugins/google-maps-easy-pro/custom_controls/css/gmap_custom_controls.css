@@ -1,0 +1,466 @@
+/* Custom Controls */
+.gmpCustomControlsShell {
+	font-family: Roboto,Arial,sans-serif;
+	font-size: 1.1em;
+}
+.gmpCustomControlButton {
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	margin: 2px;
+	line-height: 32px;
+	border-radius: 0%;
+}
+.gmpCustomControlButton i.fa {
+	padding-left: 1px;
+}
+.gmpCustomControlButton i.fa-plus,
+.gmpCustomControlButton i.fa-minus {
+	padding-top: 8px;
+}
+.gmpCustomControlButton:hover {
+	-moz-box-shadow:	0 0 5px 1px #000000;
+	-webkit-box-shadow:	0 0 5px 1px #000000;
+	box-shadow:			0 0 5px 1px #000000;
+}
+.gmpCustomControlButton:active {
+	-moz-box-shadow:	0 0 6px 1px #000000;
+	-webkit-box-shadow:	0 0 6px 1px #000000;
+	box-shadow:			0 0 6px 1px #000000;
+}
+.gmpActiveButton {
+	-moz-box-shadow:	0 0 5px 1px #000000;
+	-webkit-box-shadow:	0 0 5px 1px #000000;
+	box-shadow:			0 0 5px 1px #000000;
+}
+.gmpSquareControls {
+	border-radius: 0;
+}
+.gmpRoundedEdgesControls {
+	border-radius: 10px;
+}
+.gmpRoundControls {
+	border-radius: 50px;
+}
+.gmpCustomControlsShell .treeview span.icon, .gmpImproveSearchContainer .treeview span.icon {
+	font-size: initial;
+	vertical-align: middle;
+}
+/* Search Shell */
+.gmpSearchShell {
+	position: relative;
+	color: #000000;
+}
+.gmpSearchShell .gmpSearchForm {
+	display: none;
+	position: absolute;
+	width: auto;
+	height: auto;
+	min-width: 250px;
+	min-height: 100px;
+	overflow: auto;
+	padding: 10px;
+	border: 2px solid #D4D0BA;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+}
+.gmpSearchShell .gmpSearchFormRow {
+	margin-bottom: 10px;
+}
+.gmpSearchForm .gmpSearchFormRow:nth-child(3) {
+	margin-bottom: 0;
+}
+.gmpSearchShell input {
+	width: 100%;
+	background-color: #F6F7F7;
+	color: #252728;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top: 1px solid #DFE4E4;
+	padding: 7px 5px;
+	font-family: inherit;
+	font-size: inherit;
+}
+.gmpSearchShell button {
+	padding: 5px 10px;
+	width: auto;
+	border: 0;
+	border-radius: 0;
+	font-family: inherit;
+	font-size: inherit;
+}
+.gmpSearchShell button:active {
+	padding: 5px 10px;
+	border-top: 0;
+}
+.gmpSearchShell button:focus {
+	outline: none;
+}
+.gmpSearchShell .gmpSearchFormErrors {
+	display: none;
+	padding-top: 10px;
+	font-family: inherit;
+	font-size: inherit;
+}
+.gmpSearchShell .gmpSearchFormSlider {
+	width: auto;
+	height: auto;
+	padding: 5px 0;
+	line-height: 1em;
+	font-family: inherit;
+	font-size: inherit;
+}
+.gmpSearchShell .gmpSliderMax {
+	float: right;
+}
+.gmpSearchShell .gmpSliderMin {
+	float: left;
+}
+.gmpSearchShell .toeSliderDisplay {
+	padding: 5px 0;
+	margin-bottom: 5px;
+	text-align: center;
+    font-size: 1em;
+    line-height: 1em;
+}
+.gmpSearchShell .ui-slider-horizontal {
+	border: 1px solid #3C3C3C !important;
+	background-color: #FFFFFF !important;
+	clear: both;
+}
+.gmpSearchShell .ui-slider.ui-widget-content .ui-slider-handle {
+	border: 1px solid #3C3C3C !important;
+	background-color: #FFFFFF !important;
+}
+/* Filter Shell */
+.gmpFilterShell {
+	position: relative;
+}
+.gmpFilterShell .gmpFilterForm {
+	display: none;
+	position: absolute;
+	min-width: 200px;
+	max-height: 175px;
+	overflow: auto;
+	padding: 5px;
+	background-color: #FFFFFF;
+}
+.gmpFilterShell .gmpFilterForm .list-group {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	list-style-type: none !important;
+	padding:0px;
+}
+.gmpFilterShell .gmpFilterForm .list-group-item {
+	margin: 0;
+	padding: 6px;
+	font-family: inherit;
+	font-size: inherit;
+}
+/* Improve Search Controls */
+.gmpImproveSearchText {
+	width: 100%;
+	background-color: #F6F7F7;
+	color: #252728;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top: 1px solid #DFE4E4;
+	padding: 7px 5px;
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0 10px 0 0;
+}
+.gmpImproveSearchForm {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	text-align: center;
+	padding: 0 10px;
+}
+.gmpImproveSearchForm .gmpIsfRowWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 0;
+}
+.gmpImproveSearchForm .gmpImproveSearchResetBtn, .gmpImproveSearchForm .gmpImproveSearchFindBtn {
+	position: relative;
+	width: 31px;
+	height: 31px;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+	font-family: inherit;
+	font-size: inherit;
+	margin-right: 5px;
+}
+.gmpImproveSearchForm .gmpImproveSearchResetBtn {
+	margin-right: 0;
+}
+.gmpImproveSearchForm .gmpImproveSearchFindBtn:before, .gmpImproveSearchForm .gmpImproveSearchResetBtn:before {
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+}
+.gmpImproveSearchForm .gmpImproveSearchFindBtn:before {
+	content: "\f002";
+	font-size: 20px;
+	line-height: 31px;
+}
+.gmpImproveSearchForm .gmpImproveSearchResetBtn:before {
+	content: "\f01e";
+	font-size: 31px;
+	line-height: 31px;
+}
+.gmpImproveSearchCategoryList {
+	overflow-y: auto;
+	height: 100%;
+}
+.gmpImproveSearchContainer {
+	position: relative;
+}
+.gmpImproveSearchContainer .gmpImproveSearchFormWr {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	position: absolute;
+	width: auto;
+	height: auto;
+	min-width: 250px;
+	min-height: 100px;
+	overflow-y: auto;
+	background-color: #fff;
+}
+.gmpImproveSearchContainer .gmpImproveSearchFormWr .gmpImproveSearchBlock {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-bottom: 10px;
+}
+.gmpImproveSearchCategoryListWr {
+	max-height: 230px;
+}
+.gmpImproveSearchCategoryListWr, .gmpImproveSearchForm .gmpIsfRowWrapper:first-child {
+	width: 60%;
+	padding: 10px 0 0 0;
+}
+.gmpImproveSearchCategoryListWr:last-child {
+	padding-right: 0;
+}
+.gmpImproveSearchCalendarWr, .gmpImproveSearchForm .gmpIsfRowWrapper:last-child {
+	width: 40%;
+	padding: 10px 0 0 0;
+}
+.gmpImproveSearchCategoryListWr, .gmpImproveSearchCalendarWr, .gmpImproveSearchForm .gmpIsfRowWrapper {
+	min-width: 205px;
+}
+.gmpImproveSearchCalendarWr .gmpImproveSearchForm .gmpIsfRowWrapper{
+	min-width: 1px;
+}
+.gmpImproveSearchCalendar .ui-datepicker-inline.ui-datepicker {
+	margin: 0 auto;
+}
+.gmpImproveSearchContainer.gmpMobile .gmpCustomControlButton, .gmpImproveSearchContainer.gmpExtendSearchBtn .gmpCustomControlButton {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	padding: 5px 20px;
+	text-align: center;
+}
+.gmpMobile .gmpImproveSearchFormWr {
+	width: 100%;
+	top: 50px;
+	left: 0;
+	right: 0;
+}
+.gmpImproveSearchCategoryList.treeview > ul {
+	display: inline-block;
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: left;
+}
+.gmpImproveSearchCategoryList.treeview > ul li {
+	padding: 2px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.gmpDateAllLabel {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+}
+.gmpDateAllLabel .gmpDateAllFlag {
+	vertical-align: middle;
+}
+.gmpDateAllLabel .gmpDateAllFlagLabel {
+	color: initial;
+	vertical-align: middle;
+}
+@media only screen and (max-width: 765px) {
+	.gmpExtendSearchBtn .gmpImproveSearchFormWr {
+	    width: auto;
+	}
+	.gmpImproveSearchCategoryListWr, .gmpImproveSearchForm .gmpIsfRowWrapper:first-child, .gmpImproveSearchCalendarWr, .gmpImproveSearchForm .gmpIsfRowWrapper:last-child {
+		width: 50%;
+	}
+	.gmpImproveSearchCalendar .ui-datepicker-inline.ui-datepicker {
+		font-size: 1.5em !important;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.gmpImproveSearchCalendar .ui-datepicker-inline.ui-datepicker {
+		font-size: 1.4em !important;
+	}
+}
+@media only screen and (max-height: 568px) {
+	.gmpImproveSearchCalendar .ui-datepicker-inline.ui-datepicker {
+		font-size: 1.1em !important;
+	}
+}
+@media only screen and (max-height: 480px) {
+	.gmpImproveSearchCalendar .ui-datepicker-inline.ui-datepicker {
+		font-size: 0.9em !important;
+	}
+}
+/* Improve Search Controls Mobile */
+/* Use .gmpCustomControlsShell .gmpMobile to adapt Improve Search Form for maps with small width */
+
+.gmpImproveSearchFormWr.gmpMobile {
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchForm {
+	padding: 10px 5px;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchBlock {
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 0;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchBlock:last-child {
+	width: 100%;
+	order: -1;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchForm .gmpIsfRowWrapper {
+	min-width: auto;
+	justify-content: center;
+	align-items: center;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchForm .gmpIsfRowWrapper:first-child {
+	width: 65%;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchForm .gmpIsfRowWrapper:last-child {
+	width: 35%;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchText {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchCategoryList {
+	max-height: none;
+	margin-bottom: -3px;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchForm .gmpImproveSearchResetBtn,
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchForm .gmpImproveSearchFindBtn {
+	width: 25px;
+	height: 25px;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchForm .gmpImproveSearchFindBtn:before {
+	font-size: 16px;
+	line-height: 25px;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchForm .gmpImproveSearchResetBtn:before {
+	font-size: 25px;
+	line-height: 25px;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchCalendar .ui-datepicker-inline.ui-datepicker {
+	margin: 7px auto 0 auto;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchCategoryListWr, .gmpImproveSearchFormWr.gmpMobile .gmpImproveSearchCalendarWr {
+	width: 100%;
+	padding: 0;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpDateAllLabel {
+	margin-bottom: 0;
+}
+.gmpImproveSearchFormWr.gmpMobile .gmpDateAllLabel {
+	line-height: 28px;
+}
+/* Common Mobile */
+.gmpMobile .gmpCustomControlButton {
+	word-wrap: normal;
+}
+.gmpMobile .gmpIsfTabRoller {
+	display: flex;
+    width: 100%;
+    text-align: center;
+}
+.gmpMobile .gmpIsfTabLink {
+	display: inline-block;
+	width: 50%;
+	padding: 5px 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.gmpMobile .gmpIsfCloseBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	font-size: 15px;
+	line-height: 15px;
+	color: initial;
+	vertical-align: middle;
+}
+.gmpMobile .gmpZoomShellWr {
+	position: absolute;
+	margin-left: 48px;
+	z-index: 1000;
+}
+.gmpMobile.gmpBiggerZIndex {
+	z-index: 1100 !important;
+}
+.gmpMobile .treeview span.icon {
+	margin-right: 10px;
+}
+.gmpMobile .gmpImproveSearchCategoryList.gmpIsfTabItem.treeview > ul {
+	font-size: 1.5em;
+}
+/* Datepicker */
+.gmpCustomControlsShell .ui-datepicker-inline.ui-datepicker {
+	margin: 10px auto;
+}
+.gmpCustomControlsShell .ui-datepicker-calendar .ui-state-default, .gmpCustomControlsShell .ui-datepicker-header > a {
+	box-shadow: none;
+}
+/*.gmpCustomControlsShell.gmpMobile .ui-state-default {
+	font-size: 17px;
+}
+.gmpCustomControlsShell.gmpMobile .ui-datepicker select.ui-datepicker-month,
+.gmpCustomControlsShell.gmpMobile .ui-datepicker select.ui-datepicker-year {
+	font-size: 16px;
+	padding: 5px 0;
+}
+.gmpCustomControlsShell.gmpMobile .ui-datepicker .ui-datepicker-prev,
+.gmpCustomControlsShell.gmpMobile .ui-datepicker .ui-datepicker-next {
+	font-size: 18px;
+}*/

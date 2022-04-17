@@ -1,0 +1,56 @@
+.gmpSlideInfoWindowContainer {
+	z-index: 0;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	float: right;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px #9b9b9b;
+}
+.gmpSlideInfoWindowContainer .gmpSlideInfoWindow {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	position: absolute;
+	width: auto;
+	height: auto;
+	min-width: 100px;
+	min-height: 100px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+}
+.gmpSlideInfoWindowBlock {
+	/*padding: 10px;*/
+}
+.gmpSlideInfoWindowTitle {
+	font-weight: bold !important;
+	color: brown;
+	padding: 10px 10px 10px 30px;
+	position: relative;
+}
+.gmpSlideInfoWindowClose {
+	background: none rgb(255, 255, 255);
+	background-color: transparent;
+	display: block;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	cursor: pointer;
+	user-select: none;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.gmpSlideInfoWindowClose:hover {
+	background-color: transparent;
+}
+
+.gmpSlideInfoWindowDesc {
+	padding: 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
